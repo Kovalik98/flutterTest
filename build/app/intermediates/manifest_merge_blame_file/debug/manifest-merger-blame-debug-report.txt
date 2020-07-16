@@ -1,0 +1,147 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutterappnews"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->[:barcode_scan] /Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-65
+15-->[:barcode_scan] /Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-62
+16    <!--
+17 io.flutter.app.FlutterApplication is an android.app.Application that
+18         calls FlutterMain.startInitialization(this); in its onCreate method.
+19         In most cases you can leave this as-is, but you if you want to provide
+20         additional functionality it is fine to subclass or reimplement
+21         FlutterApplication and put your custom class here.
+22    -->
+23    <application
+23-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:9:5-30:19
+24        android:name="io.flutter.app.FlutterApplication"
+24-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:10:9-57
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.0.1] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/a6b3cea9d5982f96644e4f92725f7c69/core-1.0.1/AndroidManifest.xml:22:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:12:9-43
+28        android:label="flutterappnews" >
+28-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:11:9-39
+29        <activity
+29-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:13:9-24:20
+30            android:name="com.example.flutterappnews.MainActivity"
+30-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:14:13-41
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:17:13-163
+32            android:hardwareAccelerated="true"
+32-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:18:13-47
+33            android:launchMode="singleTop"
+33-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:15:13-43
+34            android:theme="@style/LaunchTheme"
+34-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:16:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:19:13-55
+36            <intent-filter>
+36-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:20:13-23:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:21:17-68
+37-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:21:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:22:17-76
+39-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:22:27-74
+40            </intent-filter>
+41        </activity>
+42        <!--
+43             Don't delete the meta-data below.
+44             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+45        -->
+46        <meta-data
+46-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:27:9-29:33
+47            android:name="flutterEmbedding"
+47-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:28:13-44
+48            android:value="2" />
+48-->/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/AndroidManifest.xml:29:13-30
+49
+50        <service
+50-->[:firebase_auth] /Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+51            android:name="com.google.firebase.components.ComponentDiscoveryService"
+51-->[:firebase_auth] /Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+52            android:directBootAware="true"
+52-->[com.google.firebase:firebase-common:19.3.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/45ab2ed0b564cdcce5fdf3fb15199e9a/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+53            android:exported="false" >
+53-->[com.google.firebase:firebase-auth:19.2.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/337e24a263fdd84e41b4282b5c834462/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+54            <meta-data
+54-->[:firebase_auth] /Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+55                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+55-->[:firebase_auth] /Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[:firebase_auth] /Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+57            <meta-data
+57-->[:firebase_core] /Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+58                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+58-->[:firebase_core] /Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[:firebase_core] /Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+60            <meta-data
+60-->[com.google.firebase:firebase-auth:19.2.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/337e24a263fdd84e41b4282b5c834462/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+61                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+61-->[com.google.firebase:firebase-auth:19.2.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/337e24a263fdd84e41b4282b5c834462/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-auth:19.2.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/337e24a263fdd84e41b4282b5c834462/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+63        </service>
+64
+65        <activity android:name="de.mintware.barcode_scan.BarcodeScannerActivity" />
+65-->[:barcode_scan] /Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-84
+65-->[:barcode_scan] /Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:14:19-81
+66        <activity
+66-->[com.google.firebase:firebase-auth:19.2.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/337e24a263fdd84e41b4282b5c834462/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+67            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+67-->[com.google.firebase:firebase-auth:19.2.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/337e24a263fdd84e41b4282b5c834462/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+68            android:excludeFromRecents="true"
+68-->[com.google.firebase:firebase-auth:19.2.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/337e24a263fdd84e41b4282b5c834462/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+69            android:exported="true"
+69-->[com.google.firebase:firebase-auth:19.2.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/337e24a263fdd84e41b4282b5c834462/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+70            android:launchMode="singleTask"
+70-->[com.google.firebase:firebase-auth:19.2.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/337e24a263fdd84e41b4282b5c834462/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+71            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+71-->[com.google.firebase:firebase-auth:19.2.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/337e24a263fdd84e41b4282b5c834462/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+72-->[com.google.firebase:firebase-auth:19.2.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/337e24a263fdd84e41b4282b5c834462/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+73        <activity
+73-->[com.google.android.gms:play-services-base:17.1.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/1cad50e824c2a91bda736a296b3e673e/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+74-->[com.google.android.gms:play-services-base:17.1.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/1cad50e824c2a91bda736a296b3e673e/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+75            android:exported="false"
+75-->[com.google.android.gms:play-services-base:17.1.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/1cad50e824c2a91bda736a296b3e673e/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+76-->[com.google.android.gms:play-services-base:17.1.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/1cad50e824c2a91bda736a296b3e673e/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+77
+78        <provider
+78-->[com.google.firebase:firebase-common:19.3.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/45ab2ed0b564cdcce5fdf3fb15199e9a/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+79            android:name="com.google.firebase.provider.FirebaseInitProvider"
+79-->[com.google.firebase:firebase-common:19.3.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/45ab2ed0b564cdcce5fdf3fb15199e9a/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+80            android:authorities="com.example.flutterappnews.firebaseinitprovider"
+80-->[com.google.firebase:firebase-common:19.3.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/45ab2ed0b564cdcce5fdf3fb15199e9a/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+81            android:exported="false"
+81-->[com.google.firebase:firebase-common:19.3.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/45ab2ed0b564cdcce5fdf3fb15199e9a/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+82            android:initOrder="100" />
+82-->[com.google.firebase:firebase-common:19.3.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/45ab2ed0b564cdcce5fdf3fb15199e9a/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+83
+84        <meta-data
+84-->[com.google.android.gms:play-services-basement:17.0.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/1749837150df1886efbeab4557d112ab/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+85            android:name="com.google.android.gms.version"
+85-->[com.google.android.gms:play-services-basement:17.0.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/1749837150df1886efbeab4557d112ab/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+86            android:value="@integer/google_play_services_version" />
+86-->[com.google.android.gms:play-services-basement:17.0.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/1749837150df1886efbeab4557d112ab/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+87    </application>
+88
+89</manifest>
