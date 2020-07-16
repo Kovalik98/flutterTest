@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml",
+            "outputFile": "/Users/nazarkovalik/Documents/GitHub/flutterTest/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml",
             "map": [
                 {
                     "source": "/Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/1cad50e824c2a91bda736a296b3e673e/play-services-base-17.1.0/res/values-sq/values.xml",

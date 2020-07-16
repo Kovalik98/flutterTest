@@ -27,7 +27,10 @@ class LoginPage extends StatefulWidget {
   void validateAndSubmit() async {
     if (validateAndSave()) {
       if (_email == 'User' && _password == '123456') {
-      Navigator.of(context).push(_createRoute());
+     // Navigator.of(context).push(_createRoute());
+        Navigator.of(context).push(MaterialPageRoute(
+          builder: (context) => HomePage(value : _email),
+        ));
 
       } else{
         print('no');

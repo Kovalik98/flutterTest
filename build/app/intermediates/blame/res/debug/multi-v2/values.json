@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/nazarkovalik/Documents/GitHub/flutterTest/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/db2388f0fe5e05a7a168e5a9c11e912f/material-1.0.0/res/values/values.xml",
@@ -39,6 +39,25 @@
                         "endLines": "139,140,141,415,416,3525",
                         "endColumns": "53,52,51,57,55,24",
                         "endOffsets": "9224,9277,9329,26496,26552,225966"
+                    }
+                },
+                {
+                    "source": "/Users/nazarkovalik/Documents/GitHub/flutterTest/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "347"
+                    },
+                    "to": {
+                        "startLines": "1921",
+                        "startColumns": "4",
+                        "startOffsets": "126651",
+                        "endLines": "1925",
+                        "endColumns": "12",
+                        "endOffsets": "126943"
                     }
                 },
                 {
@@ -132,25 +151,6 @@
                         "endLines": "273,274,275,283,284,285,369,4210",
                         "endColumns": "58,47,55,74,75,71,65,24",
                         "endOffsets": "18140,18188,18244,18930,19006,19078,24064,267124"
-                    }
-                },
-                {
-                    "source": "/Users/nazarkovalik/AndroidStudioProjects/flutter_app_news/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "347"
-                    },
-                    "to": {
-                        "startLines": "1921",
-                        "startColumns": "4",
-                        "startOffsets": "126651",
-                        "endLines": "1925",
-                        "endColumns": "12",
-                        "endOffsets": "126943"
                     }
                 },
                 {

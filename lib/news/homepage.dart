@@ -6,12 +6,16 @@ import 'news.dart';
 import 'package:intl/intl.dart';
 
 class HomePage extends StatefulWidget {
-
+  String value;
+  HomePage({this.value});
   @override
-  _HomePageState createState() => _HomePageState();
+  _HomePageState createState() => _HomePageState(value);
 }
 
 class _HomePageState extends State<HomePage>{
+
+  String value;
+  _HomePageState(this.value);
   bool loadingInProgress;
   var newslist;
   void getNews() async {
@@ -33,7 +37,7 @@ class _HomePageState extends State<HomePage>{
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-      title: const Text("News"),
+      title: Text(value),
       actions: <Widget>[
         IconButton(
           icon: const Icon(Icons.blur_on),
