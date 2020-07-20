@@ -1,4 +1,4 @@
-#Thu Jul 16 13:29:24 EEST 2020
+#Mon Jul 20 03:10:42 EEST 2020
 base.0=/Users/nazarkovalik/Documents/GitHub/flutterTest/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

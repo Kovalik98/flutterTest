@@ -1,21 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutterappnews/news/detailpage.dart';
 import 'package:flutterappnews/qrgenerator/generator.dart';
-import '../login_page.dart';
+
 import 'news.dart';
 import 'package:intl/intl.dart';
 
 class HomePage extends StatefulWidget {
-  String value;
-  HomePage({this.value});
+ String tytle;
+ HomePage(this.tytle);
   @override
-  _HomePageState createState() => _HomePageState(value);
+  _HomePageState createState() => _HomePageState(tytle: tytle);
 }
 
 class _HomePageState extends State<HomePage>{
-
-  String value;
-  _HomePageState(this.value);
+  String tytle;
+  _HomePageState({this.tytle});
   bool loadingInProgress;
   var newslist;
   void getNews() async {
@@ -37,22 +36,22 @@ class _HomePageState extends State<HomePage>{
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-      title: Text(value),
-      actions: <Widget>[
-        IconButton(
-          icon: const Icon(Icons.blur_on),
-          onPressed: () {
-            Navigator.of(context).push(_createRoute());
-          },
-        ),
-        IconButton(
-          icon: const Icon(Icons.add_a_photo),
-          onPressed: () {
+        title: Text(tytle),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(Icons.blur_on),
+            onPressed: () {
+              Navigator.of(context).push(_createRoute());
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.add_a_photo),
+            onPressed: () {
 
-          },
-        ),
-      ],
-    ),
+            },
+          ),
+        ],
+      ),
 
       body: SafeArea(child: Padding(padding: EdgeInsets.symmetric(
         horizontal: 20.0,
@@ -65,27 +64,27 @@ class _HomePageState extends State<HomePage>{
 
             Expanded(
 
-           child: ListView.builder(
-             itemCount: newslist.length,
-             itemBuilder: (context, index){
+              child: ListView.builder(
+                itemCount: newslist.length,
+                itemBuilder: (context, index){
 
-              return ListTile(
-                title: Text( newslist[index].title),
-                subtitle: Text(DateFormat.Hm().format(newslist[index].publishedAt),),
-                leading: Container(
-                  width: 100,
-                  height: 100,
-                  child: Image.network(newslist[index].urlToImage),
-                ),
+                  return ListTile(
+                    title: Text( newslist[index].title),
+                    subtitle: Text(DateFormat.Hm().format(newslist[index].publishedAt),),
+                    leading: Container(
+                      width: 100,
+                      height: 100,
+                      child: Image.network(newslist[index].urlToImage),
+                    ),
 
-                onTap: (){
-                  Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => DetailPage(newslist[index]))
+                    onTap: (){
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => DetailPage(newslist[index]))
+                      );
+                    },
                   );
                 },
-              );
-            },
-            ),
+              ),
             ),
           ],
         ),

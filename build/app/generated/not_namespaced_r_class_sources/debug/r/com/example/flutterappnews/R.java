@@ -5075,17 +5075,25 @@ public final class R {
     public static final int common_open_on_phone=0x7f0d003a;
     public static final int common_signin_button_text=0x7f0d003b;
     public static final int common_signin_button_text_long=0x7f0d003c;
-    public static final int fab_transformation_scrim_behavior=0x7f0d003d;
-    public static final int fab_transformation_sheet_behavior=0x7f0d003e;
-    public static final int hide_bottom_view_on_scroll_behavior=0x7f0d003f;
-    public static final int mtrl_chip_close_icon_content_description=0x7f0d0040;
-    public static final int password_toggle_content_description=0x7f0d0041;
-    public static final int path_password_eye=0x7f0d0042;
-    public static final int path_password_eye_mask_strike_through=0x7f0d0043;
-    public static final int path_password_eye_mask_visible=0x7f0d0044;
-    public static final int path_password_strike_through=0x7f0d0045;
-    public static final int search_menu_title=0x7f0d0046;
-    public static final int status_bar_notification_info_overflow=0x7f0d0047;
+    public static final int default_web_client_id=0x7f0d003d;
+    public static final int fab_transformation_scrim_behavior=0x7f0d003e;
+    public static final int fab_transformation_sheet_behavior=0x7f0d003f;
+    public static final int firebase_database_url=0x7f0d0040;
+    public static final int gcm_defaultSenderId=0x7f0d0041;
+    public static final int google_api_key=0x7f0d0042;
+    public static final int google_app_id=0x7f0d0043;
+    public static final int google_crash_reporting_api_key=0x7f0d0044;
+    public static final int google_storage_bucket=0x7f0d0045;
+    public static final int hide_bottom_view_on_scroll_behavior=0x7f0d0046;
+    public static final int mtrl_chip_close_icon_content_description=0x7f0d0047;
+    public static final int password_toggle_content_description=0x7f0d0048;
+    public static final int path_password_eye=0x7f0d0049;
+    public static final int path_password_eye_mask_strike_through=0x7f0d004a;
+    public static final int path_password_eye_mask_visible=0x7f0d004b;
+    public static final int path_password_strike_through=0x7f0d004c;
+    public static final int project_id=0x7f0d004d;
+    public static final int search_menu_title=0x7f0d004e;
+    public static final int status_bar_notification_info_overflow=0x7f0d004f;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0e0000;

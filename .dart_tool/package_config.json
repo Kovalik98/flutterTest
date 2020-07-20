@@ -129,7 +129,7 @@
     },
     {
       "name": "http",
-      "rootUri": "file:///Users/nazarkovalik/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.12.1",
+      "rootUri": "file:///Users/nazarkovalik/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.12.2",
       "packageUri": "lib/",
       "languageVersion": "2.4"
     },
@@ -320,7 +320,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2020-07-16T10:33:11.667224Z",
+  "generated": "2020-07-19T23:37:38.628689Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }

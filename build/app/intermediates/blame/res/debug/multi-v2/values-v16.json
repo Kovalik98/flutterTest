@@ -4,7 +4,17 @@
             "outputFile": "/Users/nazarkovalik/Documents/GitHub/flutterTest/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/dd2ecfcfb369a2f0046b9c1c6d80939e/appcompat-1.0.2/res/values-v16/values-v16.xml",
+                    "source": "/Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/31838b00cdce5409c29df1d4e316bb7d/core-1.0.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/25c09a54f56fc2cc31f6765f38bbb3c1/appcompat-1.0.2/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "/Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/a6b3cea9d5982f96644e4f92725f7c69/core-1.0.1/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]
