@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterappnews/image/image.dart';
 import 'package:flutterappnews/news/detailpage.dart';
 import 'package:flutterappnews/qrgenerator/generator.dart';
 
@@ -47,7 +48,9 @@ class _HomePageState extends State<HomePage>{
           IconButton(
             icon: const Icon(Icons.add_a_photo),
             onPressed: () {
-
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => LandeigScreen())
+              );
             },
           ),
         ],

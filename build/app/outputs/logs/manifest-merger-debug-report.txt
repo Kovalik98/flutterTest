@@ -10,6 +10,8 @@ MERGED from [:firebase_core] /Users/nazarkovalik/Documents/GitHub/flutterTest/bu
 MERGED from [:firebase_core_web] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/firebase_core_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:barcode_scan] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_auth_web] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/firebase_auth_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-analytics:17.2.2] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/2a70ee504bd32b1bd949b6dd58d86852/firebase-analytics-17.2.2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:17:1-42:12
@@ -50,7 +52,7 @@ MERGED from [androidx.customview:customview:1.0.0] /Users/nazarkovalik/.gradle/c
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/5a5d53679d914b768463e606a8e8f920/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/2ecca17b0eb70fcbc1e9d8148641257d/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.0.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/477e81a6102496b4df20cd2557cfcd3a/media-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.1] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/31838b00cdce5409c29df1d4e316bb7d/core-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.0.2] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/3aabd8abbe4aca13d5de98eb4193fb62/core-1.0.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/74d81cbab4baf82cd5ba855cad11f23d/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/82b463c8584fb88ea5a1f562d740c4b7/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/a78ce9b49fd39a3eac90624d04d1ee8a/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
@@ -89,6 +91,8 @@ MERGED from [:firebase_core] /Users/nazarkovalik/Documents/GitHub/flutterTest/bu
 MERGED from [:firebase_core] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:barcode_scan] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-15:19
 MERGED from [:barcode_scan] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-15:19
+MERGED from [:image_picker] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
 MERGED from [com.google.firebase:firebase-analytics:17.2.2] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/2a70ee504bd32b1bd949b6dd58d86852/firebase-analytics-17.2.2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.2.2] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/2a70ee504bd32b1bd949b6dd58d86852/firebase-analytics-17.2.2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
@@ -129,12 +133,12 @@ MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /Users/nazarkovalik/.gradle/cac
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/33e3413576968285f1e6511679deb3f3/zxing-1.9.13/AndroidManifest.xml:11:5-20
 MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/c7f341e61ed5d099c9590180db9f2506/jetified-core-1.9.13/AndroidManifest.xml:11:5-20
 MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/c7f341e61ed5d099c9590180db9f2506/jetified-core-1.9.13/AndroidManifest.xml:11:5-20
-MERGED from [androidx.core:core:1.0.1] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/31838b00cdce5409c29df1d4e316bb7d/core-1.0.1/AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.1] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/31838b00cdce5409c29df1d4e316bb7d/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.2] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/3aabd8abbe4aca13d5de98eb4193fb62/core-1.0.2/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.2] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/3aabd8abbe4aca13d5de98eb4193fb62/core-1.0.2/AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/2ae0f4532ce9c2b2540e7c7daff54826/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/2ae0f4532ce9c2b2540e7c7daff54826/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.1] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/31838b00cdce5409c29df1d4e316bb7d/core-1.0.1/AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.0.2] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/3aabd8abbe4aca13d5de98eb4193fb62/core-1.0.2/AndroidManifest.xml:22:18-86
 	android:label
 		ADDED from /Users/nazarkovalik/Documents/GitHub/flutterTest/android/app/src/main/AndroidManifest.xml:11:9-39
 	android:icon
@@ -185,6 +189,10 @@ MERGED from [:barcode_scan] /Users/nazarkovalik/Documents/GitHub/flutterTest/bui
 MERGED from [:barcode_scan] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:firebase_auth_web] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/firebase_auth_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth_web] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/firebase_auth_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.2.2] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/2a70ee504bd32b1bd949b6dd58d86852/firebase-analytics-17.2.2/AndroidManifest.xml:5:5-44
@@ -265,8 +273,8 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/naza
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/2ecca17b0eb70fcbc1e9d8148641257d/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/477e81a6102496b4df20cd2557cfcd3a/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/477e81a6102496b4df20cd2557cfcd3a/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/31838b00cdce5409c29df1d4e316bb7d/core-1.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/31838b00cdce5409c29df1d4e316bb7d/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.2] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/3aabd8abbe4aca13d5de98eb4193fb62/core-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.2] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/3aabd8abbe4aca13d5de98eb4193fb62/core-1.0.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/74d81cbab4baf82cd5ba855cad11f23d/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/74d81cbab4baf82cd5ba855cad11f23d/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/82b463c8584fb88ea5a1f562d740c4b7/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
@@ -355,6 +363,30 @@ activity#de.mintware.barcode_scan.BarcodeScannerActivity
 ADDED from [:barcode_scan] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-84
 	android:name
 		ADDED from [:barcode_scan] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:14:19-81
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:image_picker] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:image_picker] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:image_picker] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:image_picker] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker] /Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents

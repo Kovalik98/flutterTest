@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="android/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/446126299/barcode_scan.iml" filepath="$PROJECT_DIR$/.idea/modules/446126299/barcode_scan.iml" group="android/barcode_scan" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2063381753/firebase_auth.iml" filepath="$PROJECT_DIR$/.idea/modules/-2063381753/firebase_auth.iml" group="android/firebase_auth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1317611918/firebase_auth_web.iml" filepath="$PROJECT_DIR$/.idea/modules/-1317611918/firebase_auth_web.iml" group="android/firebase_auth_web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/293151283/firebase_core.iml" filepath="$PROJECT_DIR$/.idea/modules/293151283/firebase_core.iml" group="android/firebase_core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/603263080/firebase_core_web.iml" filepath="$PROJECT_DIR$/.idea/modules/603263080/firebase_core_web.iml" group="android/firebase_core_web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2033831659/flutter_plugin_android_lifecycle.iml" filepath="$PROJECT_DIR$/.idea/modules/-2033831659/flutter_plugin_android_lifecycle.iml" group="android/flutter_plugin_android_lifecycle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1073181/image_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-1073181/image_picker.iml" group="android/image_picker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1841791605/path_provider.iml" filepath="$PROJECT_DIR$/.idea/modules/-1841791605/path_provider.iml" group="android/path_provider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-110472837/path_provider_linux.iml" filepath="$PROJECT_DIR$/.idea/modules/-110472837/path_provider_linux.iml" group="android/path_provider_linux" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/383272254/path_provider_macos.iml" filepath="$PROJECT_DIR$/.idea/modules/383272254/path_provider_macos.iml" group="android/path_provider_macos" />
     </modules>
   </component>
 </project>
