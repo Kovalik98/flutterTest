@@ -1,0 +1,4 @@
+#Mon Jul 27 13:04:58 EEST 2020
+base.0=/Users/nazarkovalik/Documents/GitHub/flutterTest/build/app/intermediates/transforms/r8/release/0/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/3aabd8abbe4aca13d5de98eb4193fb62/core-1.0.2/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/3aabd8abbe4aca13d5de98eb4193fb62/core-1.0.2/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/3aabd8abbe4aca13d5de98eb4193fb62/core-1.0.2/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/3aabd8abbe4aca13d5de98eb4193fb62/core-1.0.2/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/nazarkovalik/Documents/GitHub/flutterTest/build/image_picker/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/nazarkovalik/.gradle/caches/transforms-2/files-2.1/3aabd8abbe4aca13d5de98eb4193fb62/core-1.0.2/res/layout/notification_action_tombstone.xml"
+    }
+]
