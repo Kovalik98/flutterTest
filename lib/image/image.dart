@@ -51,7 +51,7 @@ class _LandeigScreenState extends State<LandeigScreen> {
     return showDialog(context: context, builder: (BuildContext context){
 
       return AlertDialog(
-        title: Text('Male a Choice'),
+        title: Text('Choice'),
         content: SingleChildScrollView(
           child: ListBody(
             children: <Widget>[
@@ -87,7 +87,7 @@ class _LandeigScreenState extends State<LandeigScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Main Screen"),
+        title: Text("Image"),
       ),
       body: Container(
         child: Center(
